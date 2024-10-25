@@ -1,0 +1,50 @@
+.post-div{
+    margin: 5px 0px;
+    width: 100%;
+}
+.post-username{
+    display: block;
+    margin: 6px 15px;
+    cursor: pointer;
+}
+.post-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3px;
+}
+.unlike-btn,.like-btn,.comment-btn{
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: rgb(59, 59, 59);
+}
+.comment-btn
+{
+    margin-left: 8px;
+}
+.fa-heart
+{
+    margin-left: 10px;
+}
+.likers-link, .post-description
+{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-size: .9rem;
+    display: block;
+    margin: 1px 10px;
+}
+.comments-link
+{
+    text-decoration: none;
+    color: gray;
+    font-size: .9rem;
+    display: block;
+    margin: 0 10px;
+}
+.post-date
+{
+    color: gray;
+    font-size: .7rem;
+    display: block;
+    margin: 0 10px;
+}

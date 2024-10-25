@@ -1,0 +1,51 @@
+#search-container{
+    background: white;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+#search-bar{
+    margin-bottom: 10px;
+    background-color: rgb(66, 66, 66, .100);
+    /* color: gray;  */
+    font-size: 18px;
+}
+
+#search-list{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+#search-list>li
+{
+    list-style: none;
+    padding: 10px 25px;
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.search-img{
+    border-radius: 25px;
+    height: 45px;
+    width: 45px;
+}
+
+.search-username{
+    display: block;
+    height: 35%;
+    font-weight: 600;
+}
+
+.search-name{
+    font-size: .70rem; 
+    color: gray;  
+}
+
+li#no-content
+{
+    font-size: x-large;
+    color: gray;
+}
